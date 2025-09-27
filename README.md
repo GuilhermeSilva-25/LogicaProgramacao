@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Linguagem-JavaScript-orange?style=for-the-badge" alt="Badge JavaScript">
   <img src="https://img.shields.io/badge/Linguagem-TypeScript-blue?style=for-the-badge" alt="Badge TypeScript">
   <img src="https://img.shields.io/badge/Linguagem-SQL-lightgrey?style=for-the-badge" alt="Badge SQL">
-  <img src="https://img.shields.io/badge/Status-Em%20Andamento-brightgreen?style=for-the-badge" alt="Badge Status" align="center">
+  <img src="https://img.shields.io/badge/Status-Em%20Andamento-brightgreen?style=for-the-badge" alt="Badge Status">
 </p>
 
 <p align="center">
@@ -65,3 +65,4 @@ Contribuições são sempre bem-vindas! Se você tiver uma solução alternativa
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-silva94/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:guilherme.silva672@fatec.sp.gov.br)
+
