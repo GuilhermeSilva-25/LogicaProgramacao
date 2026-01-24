@@ -1,0 +1,35 @@
+import * as fs from "fs";
+
+function main(): void {
+  const input: string[] = fs.readFileSync(0, "utf8").trim().split("\n");
+
+  const NUMBER_OF_VALUES: number = 5;
+
+  let even: number = 0;
+  let odd: number = 0;
+  let positive: number = 0;
+  let negative: number = 0;
+
+  for (let i = 0; i < NUMBER_OF_VALUES; i++) {
+    const value: number = Number(input[i]);
+
+    if (value % 2 === 0) {
+      even++;
+    } else {
+      odd++;
+    }
+
+    if (value > 0) {
+      positive++;
+    } else if (value < 0) {
+      negative++;
+    }
+  }
+
+  console.log(`${even} valor(es) par(es)`);
+  console.log(`${odd} valor(es) impar(es)`);
+  console.log(`${positive} valor(es) positivo(s)`);
+  console.log(`${negative} valor(es) negativo(s)`);
+}
+
+main();
