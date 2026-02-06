@@ -7,7 +7,9 @@ public class Main {
             int higherValue = Integer.MIN_VALUE;
             for (int i = 0; i < values.length; i++) {
                 values[i] = sc.nextInt();
-                if (values[i] > higherValue) higherValue = values[i];
+                if (values[i] > higherValue) {
+                    higherValue = values[i];
+                }
             }
             System.out.printf("%d eh o maior%n", higherValue);
         }
